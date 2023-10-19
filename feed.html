@@ -8,8 +8,44 @@
     <title>Multigram</title>
   </head>
   <body>
-    <h1>Feed Page</h1>
-
-    <script src="script.js"></script>
+      <div id="header">
+          <h1>Instagram Feed</h1>
+      </div>
+      <div id="feed">
+          <div class="post">
+              <div class="post-header">
+                  <img class="user-avatar" src="user1.png" alt="User 1">
+                  <span class="username">Multiverse</span>
+              </div>
+              <video class="post-image" autoplay loop muted >
+                <source src="vid1.mp4" type="video/mp4">
+              </video>
+              <div class="post-description">
+                  <span class="likes">123 likes</span>
+                  <p class="caption">Beautiful day at the beach. 🏖️</p>
+              </div>
+              <div class="post-actions">
+                  <button class="like-button">Like</button>
+                  <button class="comment-button">Comment</button>
+              </div>
+          </div>
+          <div class="post">
+              <div class="post-header">
+                  <img class="user-avatar" src="default.png" alt="User 2">
+                  <span class="username">Carlosx</span>
+              </div>
+              <img class="post-image" src="post2.jpg" alt="Post 2">
+              <div class="post-description">
+                  <span class="likes">75 likes</span>
+                  <p class="caption">Delicious dinner with friends. 🍔🍟</p>
+              </div>
+              <div class="post-actions">
+                  <button class="like-button">Like</button>
+                  <button class="comment-button">Comment</button>
+              </div>
+          </div>
+          <!-- Add more posts here -->
+      </div>
+      <script src="script.js"></script>
   </body>
 </html>
