@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.navbar {
+  width: 100vw;
+  background-color: rgb(75, 181, 249);
+  padding-left: 30px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid gray 2px;
+  box-shadow: 100px 10px 100px 10px gray;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  color: #ffff;
+  justify-content: flex-end;
+  align-tracks: flex-start;
+}
+
+.logo {
+  color: black;
+  font-size: 30px;
+  font-family: "proxima_nova_rgregular";
+  font-style: italic;
+  src: url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot");
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  width: 5%;
+}
+
+footer {
+  width: 100%;
+  padding: 1rem;
+  background-color: rgb(75, 181, 249);
+  display: flex;
+  justify-content: space-around;
+  border-top: solid gray 3px;
+  box-shadow: 100px 10px 100px 10px gray;
+}
+
+.footer-icon {
+  color: #ffff;
+  width: 5%;
+}
+
+.name-caption {
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.pic {
+  width: 100%;
+  height: 50%;
+}
+
+.post-div {
+  border: solid lightgray 3px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 100px 1px gray;
+  margin: 2px;
+}
+
+.pic-item {
+  width: 2%;
+}
+
+.interactions {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 5%;
+  border-right: 5px;
+}
