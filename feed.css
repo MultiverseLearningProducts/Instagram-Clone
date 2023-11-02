@@ -84,9 +84,4 @@ main {
   width: 2%;
 }
 
-.interactions {
-  display: flex;
-  justify-content: flex-start;
-  margin-right: 5%;
-  border-right: 5px;
-}
+
