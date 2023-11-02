@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+}
+h1 {
+    font-family: 'proxima_nova_rgregular';
+    font-style: italic;
+    src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+}
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px 0 3px 0;
+    border: 1px solid rgb(233,233,233);
+    padding: 8px;
+    color: rgb(190,167,179);
+    border-radius: 3px;
+}
+button {
+    margin: 12px 0 12px 0;
+    background-color: rgb(75,181,249);
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
+}
+#to-feed {
+    color: white;
+    text-decoration: none;
+}
